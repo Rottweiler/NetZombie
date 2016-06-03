@@ -5,6 +5,8 @@ namespace NetZombie
 {
     public partial class frmMain : Form
     {
+        frmBuild builder = new frmBuild();
+
         public frmMain()
         {
             InitializeComponent();
@@ -19,6 +21,17 @@ namespace NetZombie
         {
             this.Icon = Properties.Resources.netzombie;
             this.Text = "NetZombie (Pre-alpha/GUI only)";
+        }
+
+        private void btnBuilder_Click(object sender, EventArgs e)
+        {
+            builder.ShowDialog();
+        }
+
+        ~frmMain()
+        {
+            builder.Close();
+            builder.Dispose();
         }
     }
 }

