@@ -1,0 +1,8 @@
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\bin\Debug\NetZombie.exe.config
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\bin\Debug\NetZombie.exe
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\bin\Debug\NetZombie.pdb
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\obj\Debug\NetZombie.Form1.resources
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\obj\Debug\NetZombie.Properties.Resources.resources
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\obj\Debug\NetZombie.csproj.GenerateResource.Cache
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\obj\Debug\NetZombie.exe
+c:\users\snowden\documents\visual studio 2015\Projects\NetZombie\NetZombie\obj\Debug\NetZombie.pdb
